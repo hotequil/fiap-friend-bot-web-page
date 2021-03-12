@@ -1,0 +1,23 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./header.css";
+@import "./footer.css";
+
+.body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Teko', sans-serif;*/
+}
+
+.main{
+    padding-top: var(--header-height);
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: var(--max-width);
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
