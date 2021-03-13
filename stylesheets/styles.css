@@ -34,3 +34,14 @@
 *{
     outline-color: var(--pink);
 }
+
+.link{
+    text-decoration: none;
+    color: var(--pink);
+}
+
+@media(max-width: 600px){
+    .container{
+        padding: 0 1rem;
+    }
+}

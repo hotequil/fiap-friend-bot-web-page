@@ -4,6 +4,7 @@
     box-shadow: 0 -8px 16px 2px var(--black);
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .menu__list{

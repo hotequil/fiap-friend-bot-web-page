@@ -27,7 +27,7 @@
     color: var(--black);
     font-family: var(--font-title);
     text-indent: -6px;
-    margin-bottom: 16px;
+    margin-bottom: var(--title-space);
     font-weight: bold;
     hyphens: auto;
 }
@@ -38,10 +38,9 @@
     height: 12px;
     background-color: var(--pink);
     display: block;
-    top: -4px;
     transform: skew(0, -1deg);
     position: relative;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
 }
 
 .home__subject{
@@ -57,18 +56,30 @@
     background-color: var(--black);
 }
 
+.home__fourth-content{
+    background-color: var(--light-grey);
+}
+
 .home__subtitle{
     font-size: 3rem;
     font-family: var(--font-title);
     text-indent: -2px;
     color: var(--white);
-    margin-bottom: 12px;
+    margin-bottom: var(--title-space);
     font-weight: 600;
+}
+
+.home__subtitle.home__subtitle--black{
+    color: var(--black);
 }
 
 .home__word{
     font-size: 1.2rem;
     color: var(--white);
+}
+
+.home__word.home__word--black{
+    color: var(--black);
 }
 
 .home__word--highlight{
@@ -80,7 +91,7 @@
     align-items: center;
     margin-top: 4rem;
     padding: 3rem;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-sizing: border-box;
     background: linear-gradient(65deg, var(--white) 70%, var(--dark-grey) 80%);
 }
@@ -100,13 +111,36 @@
 
     margin-top: 4rem;
     display: grid;
-    grid-gap: 2rem;
+    grid-gap: var(--gap);
     grid-template-columns: repeat(2, var(--video-width-medium));
 }
 
 .home__video{
     width: var(--video-width-medium);
     height: 200px;
+    border-radius: var(--border-radius);
+}
+
+.home__imgs{
+    --width-img: 400px;
+
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, var(--width-img));
+    grid-gap: var(--gap);
+}
+
+.home__fig-img{
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 40px 0 var(--grey);
+    width: var(--width-img);
+    pointer-events: none;
+    user-select: none;
+}
+
+.home__figcapt{
+    margin-top: var(--title-space);
+    font-size: 1rem;
 }
 
 @media(max-width: 1200px){
@@ -130,11 +164,23 @@
     .home__video{
         margin: 0 auto;
     }
+
+    .home__imgs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home__fig-img{
+        width: 100%;
+    }
 }
 
 @media(max-width: 500px){
     .home__title{
         font-size: 4rem;
+    }
+
+    .home__subtitle{
+        font-size: 2rem;
     }
 
     .home__img--fiap{
