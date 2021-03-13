@@ -27,10 +27,10 @@
 }
 
 *::selection{
-    color: var(--purple);
-    background-color: var(--flickr-pink);
+    color: var(--pink);
+    background-color: var(--black);
 }
 
 *{
-    outline-color: var(--flickr-pink);
+    outline-color: var(--pink);
 }

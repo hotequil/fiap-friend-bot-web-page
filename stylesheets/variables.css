@@ -1,15 +1,7 @@
 :root{
-    --flickr-pink: #f72585;
-    --byzantine: #b5179e;
-    --purple: #7209b7;
-    --dark-purple: #560bad;
-    --trypan-purple: #480ca8;
-    --trypan-blue: #3a0ca3;
-    --persian-blue: #3f37c9;
-    --ultramarine-blue: #4361ee;
-    --dodger-blue: #4895ef;
-    --vivid-sky-blue: #4cc9f0;
+    --pink: #f72585;
     --grey: #5c5959;
+    --dark-grey: #292828;
     --black: #070607;
     --white: #f7f4f5;
     --border: 4px solid;
