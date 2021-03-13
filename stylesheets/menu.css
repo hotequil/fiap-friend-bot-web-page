@@ -27,6 +27,11 @@
     margin-right: 2rem;
 }
 
+.menu__home{
+    height: inherit;
+    display: inline-block;
+}
+
 .menu__item--link .menu__link{
     color: var(--white);
     font-size: .9rem;
