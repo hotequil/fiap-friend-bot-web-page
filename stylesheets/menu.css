@@ -1,7 +1,7 @@
 .menu{
     width: 100%;
     background: linear-gradient(45deg, var(--persian-blue), var(--ultramarine-blue));
-    box-shadow: 0 0 12px 4px var(--grey);
+    box-shadow: 0 -8px 16px 2px var(--black);
     position: fixed;
     top: 0;
 }

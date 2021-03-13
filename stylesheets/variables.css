@@ -12,6 +12,8 @@
     --grey: #5c5959;
     --black: #070607;
     --white: #f7f4f5;
-    --menu-height: 64px;
+    --border: 4px solid;
+    --font-title: 'Ubuntu', sans-serif;
+    --menu-height: 72px;
     --max-width: 1200px;
 }

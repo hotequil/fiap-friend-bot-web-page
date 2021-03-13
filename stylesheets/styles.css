@@ -7,7 +7,6 @@
 .body{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    /*font-family: 'Teko', sans-serif;*/
 }
 
 .header{
@@ -25,4 +24,13 @@
     max-width: var(--max-width);
     padding: 0 2rem;
     box-sizing: border-box;
+}
+
+*::selection{
+    color: var(--purple);
+    background-color: var(--flickr-pink);
+}
+
+*{
+    outline-color: var(--flickr-pink);
 }
