@@ -18,8 +18,12 @@
     flex-grow: 1;
 }
 
-.menu__item--link:not(:last-child){
+.menu__item:not(:last-child){
     margin-right: 1rem;
+}
+
+.menu__item:first-child{
+    margin-right: 2rem;
 }
 
 .menu__item--link .menu__link{
@@ -29,6 +33,8 @@
     text-transform: uppercase;
     transition: color .25s;
     font-weight: 600;
+    text-align: center;
+    hyphens: auto;
 }
 
 .menu__item--link .menu__link:hover, .menu .menu__item--link .menu__link:focus{

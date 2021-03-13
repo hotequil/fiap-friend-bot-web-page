@@ -29,6 +29,7 @@
     text-indent: -6px;
     margin-bottom: 16px;
     font-weight: bold;
+    word-break: break-all;
 }
 
 .home__title:after{
@@ -82,10 +83,31 @@
 
 .home__symbol{
     font-size: var(--icon-size);
-    margin: 0 32px;
+    margin: 32px;
     color: var(--black);
 }
 
 .home__img{
     height: var(--icon-size);
+}
+
+@media(max-width: 1200px){
+   .home__results{
+       flex-direction: column;
+       background: var(--white);
+   }
+
+    .home__presentation{
+        justify-content: space-between;
+    }
+
+    .home__principal-image{
+        display: none;
+    }
+}
+
+@media(max-width: 500px){
+    .home__img--fiap{
+        height: 40px;
+    }
 }
