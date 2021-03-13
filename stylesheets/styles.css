@@ -1,7 +1,8 @@
 @import "./reset.css";
 @import "./variables.css";
-@import "./header.css";
+@import "./menu.css";
 @import "./footer.css";
+@import "./home.css";
 
 .body{
     font-size: 16px;
@@ -9,8 +10,12 @@
     /*font-family: 'Teko', sans-serif;*/
 }
 
+.header{
+    width: 100%;
+}
+
 .main{
-    padding-top: var(--header-height);
+    padding-top: var(--menu-height);
     box-sizing: border-box;
 }
 
