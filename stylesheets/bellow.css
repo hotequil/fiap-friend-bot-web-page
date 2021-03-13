@@ -1,0 +1,23 @@
+.bellow{
+    background-color: var(--black);
+}
+
+.bellow .bellow__content{
+    --space-bellow: 2rem;
+
+    display: flex;
+    align-items: center;
+    padding-top: var(--space-bellow);
+    padding-bottom: var(--space-bellow);
+}
+
+.bellow__img{
+    width: 75px;
+    border-radius: var(--border-radius);
+}
+
+.bellow__message{
+    color: var(--white);
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}

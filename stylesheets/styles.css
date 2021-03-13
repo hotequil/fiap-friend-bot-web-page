@@ -1,7 +1,7 @@
 @import "./reset.css";
 @import "./variables.css";
 @import "./menu.css";
-@import "./footer.css";
+@import "./bellow.css";
 @import "./home.css";
 
 .body{
@@ -9,7 +9,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header{
+.header, .footer{
     width: 100%;
 }
 
@@ -29,6 +29,10 @@
 *::selection{
     color: var(--pink);
     background-color: var(--black);
+}
+
+img{
+    pointer-events: none;
 }
 
 *{
