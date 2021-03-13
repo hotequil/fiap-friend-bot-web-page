@@ -3,6 +3,10 @@
 @import "./menu.css";
 @import "./bellow.css";
 @import "./home.css";
+@import "./forpheus.css";
+@import "./codie.css";
+@import "./contact.css";
+@import "./success.css";
 
 .body{
     font-size: 16px;
