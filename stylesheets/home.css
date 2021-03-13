@@ -135,7 +135,6 @@
     box-shadow: 0 0 40px 0 var(--grey);
     width: var(--width-img);
     pointer-events: none;
-    user-select: none;
 }
 
 .home__figcapt{
