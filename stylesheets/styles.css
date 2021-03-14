@@ -75,7 +75,7 @@ img{
 
 .form__input{
     border-radius: var(--border-radius);
-    border: var(--border) var(--pink);
+    border: var(--field-border) var(--pink);
     padding: .5rem;
     width: 100%;
     box-sizing: border-box;
@@ -131,7 +131,7 @@ img{
 
 .button{
     border-radius: var(--border-radius);
-    border: var(--border) var(--pink);
+    border: var(--field-border) var(--pink);
     background-color: var(--pink);
     text-align: center;
     color: var(--white);

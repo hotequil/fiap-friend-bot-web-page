@@ -3,12 +3,14 @@
 }
 
 .contact__form{
+    --padding-form: 8rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--sapce);
-    padding-bottom: var(--sapce);
+    padding-top: var(--padding-form);
+    padding-bottom: var(--padding-form);
 }
 
 .contact__title{
