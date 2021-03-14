@@ -48,8 +48,132 @@ img{
     color: var(--pink);
 }
 
+.subtitle{
+    font-size: 3rem;
+    font-family: var(--font-title);
+    text-indent: -2px;
+    color: var(--white);
+    margin-bottom: var(--title-space);
+    font-weight: 600;
+}
+
+.subtitle.subtitle--black{
+    color: var(--black);
+}
+
+.form__container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form__label{
+    margin-bottom: .25rem;
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.form__input{
+    border-radius: var(--border-radius);
+    border: var(--border) var(--pink);
+    padding: .5rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--white);
+    outline: none;
+    transition: box-shadow .25s;
+}
+
+.form__input:focus{
+    box-shadow: 0 0 6px 2px var(--pink);
+}
+
+.form__content{
+    width: 100%;
+    max-width: 600px;
+}
+
+.form__input.form__input--textarea{
+    resize: none;
+}
+
+.form__input::-webkit-input-placeholder {
+    color: var(--black);
+}
+
+.form__input:-moz-placeholder {
+    color: var(--black);
+}
+
+.form__input::-moz-placeholder {
+    color: var(--black);
+}
+
+.form__input:-ms-input-placeholder {
+    color: var(--black);
+}
+
+.form__aux{
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.form__actions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form__actions *:not(:last-child){
+    margin-right: 1rem;
+}
+
+.button{
+    border-radius: var(--border-radius);
+    border: var(--border) var(--pink);
+    background-color: var(--pink);
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color .25s, background-color .25s, box-shadow .25s;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.button.button--stroked{
+    background-color: transparent;
+    color: var(--pink);
+}
+
+.button.button--stroked:active, .button.button--stroked:focus, .button.button--stroked:hover{
+    background-color: var(--pink);
+    color: var(--white);
+}
+
+.button:hover, .button:focus{
+    box-shadow: 0 0 12px 2px var(--pink);
+}
+
+.button:active{
+    box-shadow: 0 0 20px 4px var(--pink);
+
+}
+
+.form__hint{
+    margin-top: .25rem;
+    font-size: .85rem;
+    color: var(--white);
+}
+
 @media(max-width: 600px){
     .container{
         padding: 0 1rem;
+    }
+
+    .subtitle{
+        font-size: 2rem;
     }
 }

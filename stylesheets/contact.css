@@ -1,0 +1,16 @@
+.contact{
+    background-color: var(--dark-grey);
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--sapce);
+    padding-bottom: var(--sapce);
+}
+
+.contact__title{
+    text-align: center;
+}

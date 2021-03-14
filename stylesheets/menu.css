@@ -32,6 +32,10 @@
     display: inline-block;
 }
 
+.menu__list .menu__item.menu__item--link.menu__item--active .menu__link{
+    color: var(--pink);
+}
+
 .menu__item--link .menu__link{
     color: var(--white);
     font-size: .9rem;

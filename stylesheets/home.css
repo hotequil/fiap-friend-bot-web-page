@@ -60,19 +60,6 @@
     background-color: var(--white);
 }
 
-.home__subtitle{
-    font-size: 3rem;
-    font-family: var(--font-title);
-    text-indent: -2px;
-    color: var(--white);
-    margin-bottom: var(--title-space);
-    font-weight: 600;
-}
-
-.home__subtitle.home__subtitle--black{
-    color: var(--black);
-}
-
 .home__word{
     font-size: 1.2rem;
     color: var(--white);
@@ -192,10 +179,6 @@
 @media(max-width: 500px){
     .home__title{
         font-size: 4rem;
-    }
-
-    .home__subtitle{
-        font-size: 2rem;
     }
 
     .home__img--fiap{

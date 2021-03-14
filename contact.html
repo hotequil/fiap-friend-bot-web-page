@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Sucesso - FriendBot</title>
+        <title>Contato - FriendBot</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="O FriendBot é um projeto realizado pela FIAP com seus alunos que visa criar robôs para uso recreativo nos hospitais infantis.">
@@ -33,7 +33,7 @@
                         <li class="menu__item menu__item--link">
                             <a href="./codie.html" rel="noopener" class="menu__link" target="_self">Codie</a>
                         </li>
-                        <li class="menu__item menu__item--link">
+                        <li class="menu__item menu__item--link menu__item--active">
                             <a href="./contact.html" rel="noopener" class="menu__link" target="_self">Contato</a>
                         </li>
                     </ul>
@@ -42,7 +42,36 @@
         </header>
         <main class="main">
             <div class="contact">
-                <!-- fazer formulário com redirecionamento para pagina de sucesso -->
+                <div class="container contact__content">
+                    <form class="contact__form" data-form name="form" method="post">
+                        <fieldset class="form__content">
+                            <legend class="subtitle contact__title">Contato</legend>
+                            <p class="form__aux">Fale conosco para participar do projeto também!</p>
+                            <div class="form__container">
+                                <label class="form__label" for="name">Nome *</label>
+                                <input class="form__input" placeholder="Informe seu nome" id="name" type="text" name="name" minlength="4" maxlength="260" required>
+                                <span class="form__hint">O campo deve ter no mínimo 4 caracteres e no máximo 260</span>
+                            </div>
+                            <div class="form__container">
+                                <label class="form__label" for="email">E-mail *</label>
+                                <input class="form__input" placeholder="Informe seu e-mail" id="email" type="email" name="email" required>
+                            </div>
+                            <div class="form__container">
+                                <label class="form__label" for="phone">Telefone celular *</label>
+                                <input class="form__input" placeholder="Informe seu telefone celular" id="phone" type="tel" name="phone" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{4|3}[- ]?\d{4}" required>
+                            </div>
+                            <div class="form__container">
+                                <label class="form__label" for="message">Mensagem</label>
+                                <textarea class="form__input form__input--textarea" placeholder="Informe uma mensagem" name="message" id="message" maxlength="540" rows="10"></textarea>
+                                <span class="form__hint">O campo deve ter no máximo 540 caracteres</span>
+                            </div>
+                            <div class="form__actions">
+                                <button class="button button--stroked" type="reset">Limpar</button>
+                                <button class="button" type="submit">Enviar</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </main>
         <footer class="footer">
@@ -53,5 +82,6 @@
                 </div>
             </section>
         </footer>
+        <script type="module" src="./scripts/contact.js"></script>
     </body>
 </html>
