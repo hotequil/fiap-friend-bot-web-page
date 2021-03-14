@@ -49,20 +49,20 @@
                             <p class="form__aux">Fale conosco para participar do projeto também!</p>
                             <div class="form__container">
                                 <label class="form__label" for="name">Nome *</label>
-                                <input class="form__input" placeholder="Informe seu nome" id="name" type="text" name="name" minlength="4" maxlength="260" required>
+                                <input autocomplete="off" autofocus class="form__input" placeholder="Informe seu nome" id="name" type="text" name="name" minlength="4" maxlength="260" required>
                                 <span class="form__hint">O campo deve ter no mínimo 4 caracteres e no máximo 260</span>
                             </div>
                             <div class="form__container">
                                 <label class="form__label" for="email">E-mail *</label>
-                                <input class="form__input" placeholder="Informe seu e-mail" id="email" type="email" name="email" required>
+                                <input autocomplete="off" class="form__input" placeholder="Informe seu e-mail" id="email" type="email" name="email" required>
                             </div>
                             <div class="form__container">
                                 <label class="form__label" for="phone">Telefone celular *</label>
-                                <input class="form__input" placeholder="Informe seu telefone celular" id="phone" type="tel" name="phone" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{4|3}[- ]?\d{4}" required>
+                                <input autocomplete="off" class="form__input" placeholder="Informe seu telefone celular" id="phone" type="tel" name="phone" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{4|3}[- ]?\d{4}" required>
                             </div>
                             <div class="form__container">
                                 <label class="form__label" for="message">Mensagem</label>
-                                <textarea class="form__input form__input--textarea" placeholder="Informe uma mensagem" name="message" id="message" maxlength="540" rows="10"></textarea>
+                                <textarea autocomplete="off" class="form__input form__input--textarea" placeholder="Informe uma mensagem" name="message" id="message" maxlength="540" rows="10"></textarea>
                                 <span class="form__hint">O campo deve ter no máximo 540 caracteres</span>
                             </div>
                             <div class="form__actions">
