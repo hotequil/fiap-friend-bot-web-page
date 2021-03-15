@@ -1,0 +1,29 @@
+.success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.success__check, .success__title, .success__txt{
+    text-align: center;
+    margin-bottom: var(--title-space);
+}
+
+.success__check{
+    width: 175px;
+}
+
+.success__title{
+    font-family: var(--font-title);
+    font-size: 2rem;
+}
+
+.success__txt{
+    font-size: 1.2rem;
+    color: var(--dark-grey);
+    display: inline-block;
+    max-width: 400px;
+    hyphens: auto;
+}
