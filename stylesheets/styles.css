@@ -18,6 +18,10 @@
     width: 100%;
 }
 
+.footer{
+    border-top: var(--border) var(--pink);
+}
+
 .main{
     padding-top: var(--menu-height);
     box-sizing: border-box;

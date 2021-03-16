@@ -1,7 +1,7 @@
 .menu{
     width: 100%;
     background-color: var(--black);
-    box-shadow: 0 -8px 16px 2px var(--black);
+    box-shadow: 0 -2px 16px 2px var(--pink);
     position: fixed;
     top: 0;
     z-index: 1;
