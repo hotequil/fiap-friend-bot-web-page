@@ -1,0 +1,53 @@
+.robot{
+    --margin-subtitle: 2rem;
+
+    width: 100%;
+}
+
+.robot__title{
+    font-size: 4rem;
+}
+
+.robot__subtitle{
+    font-size: 2rem;
+    margin-bottom: var(--margin-subtitle);
+}
+
+.robot__title, .robot__subtitle{
+    font-family: var(--font-title);
+    font-weight: 600;
+}
+
+.robot__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.robot__img{
+    margin-bottom: 1rem;
+}
+
+.robot__art{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 4rem;
+    box-sizing: border-box;
+    border-top: var(--border) var(--grey);
+}
+
+.robot__art.robot__art--head{
+    background-color: var(--white);
+    color: var(--black);
+    border: none;
+}
+
+.robot__head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.robot__desc{
+    font-size: 1.2rem;
+}
