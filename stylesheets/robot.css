@@ -54,16 +54,19 @@
 
 .robot__videos{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .robot__video{
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto var(--title-space) auto;
     height: 560px;
     border-radius: var(--border-radius);
     border: var(--border) var(--pink);
+}
+
+.robot__video-text{
+    font-size: 1rem;
 }
 
 .robot__imgs{
